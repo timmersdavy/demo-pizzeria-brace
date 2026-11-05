@@ -90,7 +90,12 @@
     orderBtn.disabled = !all.length;
 
     var m = minutes();
-    timerMin.textContent = m;
+    var timerLabel = $("timer-label");
+    if (m) {
+      timerLabel.innerHTML = 'Klaar in ongeveer <strong id="timer-min">' + m + '</strong> minuten';
+    } else {
+      timerLabel.textContent = "Kies eerst een pizza";
+    }
     if (G) G.to(timerDial, { rotation: -m * 6, duration: 1.1, ease: "elastic.out(1, 0.6)" });
     else timerDial.style.transform = "rotate(" + (-m * 6) + "deg)";
 
