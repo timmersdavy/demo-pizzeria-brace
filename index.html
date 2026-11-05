@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Pizzeria Brace, houtovenpizza om af te halen in Tessenderlo-Ham</title>
+<meta name="description" content="Stel je pizza samen op onze interactieve toonbank. Napolitaanse pizza uit de houtoven, afhalen in Tessenderlo-Ham. Demo door TimmersDesign.">
+<link rel="canonical" href="https://timmersdesign.be/demo-pizzeria-brace/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="nl_BE">
+<meta property="og:site_name" content="Pizzeria Brace">
+<meta property="og:title" content="Pizzeria Brace, houtovenpizza om af te halen in Tessenderlo-Ham">
+<meta property="og:description" content="Stel je pizza samen op onze interactieve toonbank. Napolitaanse pizza uit de houtoven, afhalen in Tessenderlo-Ham. Demo door TimmersDesign.">
+<meta property="og:url" content="https://timmersdesign.be/demo-pizzeria-brace/">
+<meta property="og:image" content="https://timmersdesign.be/demo-pizzeria-brace/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Pizza Margherita in een open pizzadoos op een terrazzo toonbank">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Pizzeria Brace, houtovenpizza om af te halen in Tessenderlo-Ham">
+<meta name="twitter:description" content="Stel je pizza samen op onze interactieve toonbank. Napolitaanse pizza uit de houtoven, afhalen in Tessenderlo-Ham. Demo door TimmersDesign.">
+<meta name="twitter:image" content="https://timmersdesign.be/demo-pizzeria-brace/og.jpg">
+<meta name="theme-color" content="#f3efe7">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="assets/img/margherita.webp"><link rel="preload" as="image" href="assets/img/toonbank-1920.webp" media="(min-width: 900px)">
+<link rel="stylesheet" href="assets/css/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Pizzeria Brace", "url": "https://timmersdesign.be/demo-pizzeria-brace/", "telephone": "+3213123456", "email": "hallo@pizzeria-brace.be", "servesCuisine": "Italiaans, pizza", "priceRange": "€€", "image": "https://timmersdesign.be/demo-pizzeria-brace/og.jpg", "menu": "https://timmersdesign.be/demo-pizzeria-brace/menu.html", "address": {"@type": "PostalAddress", "streetAddress": "Deegplein 4", "postalCode": "3945", "addressLocality": "Tessenderlo-Ham", "addressCountry": "BE"}, "openingHours": ["We-Th 17:00-21:30", "Fr-Sa 17:00-22:00", "Su 17:00-21:00"], "acceptsReservations": false}</script>
+</head>
+<body class="p-index">
+<a class="skip" href="#inhoud">Naar de inhoud</a>
+<p class="demo-strip">Demo-website door <a href="https://timmersdesign.be/" rel="noopener noreferrer">TimmersDesign</a>. Pizzeria Brace is een verzonnen zaak.</p>
+<header class="top">
+  <a class="brand" href="index.html" aria-label="Pizzeria Brace, naar de toonbank"><span class="brand-mark" aria-hidden="true"></span>Brace</a>
+  <nav aria-label="Hoofdmenu"><ul><li><a href="index.html" aria-current="page">Toonbank</a></li><li><a href="menu.html">Kaart</a></li><li><a href="contact.html">Bezoek ons</a></li></ul></nav>
+  <a class="btn btn-call" href="tel:+3213123456">Bel 013 12 34 56</a>
+</header>
+<main id="inhoud" tabindex="-1"><section class="scene" aria-labelledby="scene-title">
+  <div class="scene-bg" aria-hidden="true"></div>
+  <div class="scene-intro">
+    <h1 id="scene-title">Pizzeria Brace</h1>
+    <p class="lead">Kies je pizza, leg ze in de doos en zie je bestelbon groeien. Afhalen in Tessenderlo-Ham.</p>
+  </div>
+
+  <div class="stage">
+    <div class="props-left">
+      <figure class="timer" aria-hidden="true">
+        <span class="timer-mark"></span>
+        <img class="timer-dial" src="assets/img/timer.webp" width="360" height="360" alt="">
+      </figure>
+      <p class="timer-label" id="timer-label">Klaar in ongeveer <strong id="timer-min">0</strong> minuten</p>
+      <button class="chili" type="button" id="chili" aria-pressed="false">
+        <img src="assets/img/chili.webp" width="399" height="420" alt="">
+        <span>Pikante olie erbij <small>+ € 1,00</small></span>
+      </button>
+    </div>
+
+    <div class="center-col">
+    <div class="box-wrap">
+      <img class="box" src="assets/img/doos.webp" width="640" height="975" alt="">
+      <div class="pizza-slot">
+        <img class="pizza" id="pizza" src="assets/img/margherita.webp" width="880" height="880"
+             alt="Pizza Margherita van bovenaf gezien" fetchpriority="high">
+      </div>
+      <div class="now">
+        <p class="now-name" id="now-name">Margherita</p>
+        <p class="now-desc" id="now-desc">Tomaat, fior di latte, basilicum, olijfolie</p>
+        <button class="btn btn-add" type="button" id="add">In de doos · <span id="now-price">€ 11,00</span></button>
+      </div>
+    </div>
+    <ul class="picker" aria-label="Kies een pizza"><li><button class="pick" type="button" data-id="margherita" aria-pressed="true">
+  <img src="assets/img/margherita-mini.webp" width="200" height="200" alt="" loading="eager">
+  <span class="pick-name">Margherita</span><span class="pick-price">€ 11,00</span>
+</button></li><li><button class="pick" type="button" data-id="diavola" aria-pressed="false">
+  <img src="assets/img/diavola-mini.webp" width="200" height="200" alt="" loading="lazy">
+  <span class="pick-name">Diavola</span><span class="pick-price">€ 13,50</span>
+</button></li><li><button class="pick" type="button" data-id="funghi-bianca" aria-pressed="false">
+  <img src="assets/img/funghi-bianca-mini.webp" width="200" height="200" alt="" loading="lazy">
+  <span class="pick-name">Funghi bianca</span><span class="pick-price">€ 14,00</span>
+</button></li><li><button class="pick" type="button" data-id="quattro-formaggi" aria-pressed="false">
+  <img src="assets/img/quattro-formaggi-mini.webp" width="200" height="200" alt="" loading="lazy">
+  <span class="pick-name">Quattro formaggi</span><span class="pick-price">€ 15,00</span>
+</button></li></ul>
+    </div>
+
+    <aside class="receipt" aria-labelledby="bon-title">
+      <div class="paper">
+        <p class="bon-head" id="bon-title">Brace · bestelbon</p>
+        <p class="bon-meta">Afhalen · Deegplein 4</p>
+        <ul class="bon-lines" id="bon-lines">
+          <li class="bon-empty">Nog niets op je bon. Kies een pizza en tik op "In de doos".</li>
+        </ul>
+        <p class="bon-total"><span>Totaal</span><strong id="bon-total">€ 0,00</strong></p>
+        <button class="btn btn-order" type="button" id="order" disabled>Bestelling doorsturen</button>
+        <p class="bon-foot">Betalen bij afhalen, cash of Payconiq.</p>
+      </div>
+      <p class="sr-only" aria-live="polite" id="live"></p>
+    </aside>
+  </div>
+
+  <p class="noscript-note">Deze toonbank werkt met JavaScript. De volledige kaart staat ook gewoon op <a href="menu.html">de kaartpagina</a>.</p>
+  <script type="application/json" id="scene-data">{"margherita": {"name": "Margherita", "desc": "Tomaat, fior di latte, basilicum, olijfolie", "price": 11.0, "min": 7}, "diavola": {"name": "Diavola", "desc": "Tomaat, mozzarella, pikante salami, chilivlokken", "price": 13.5, "min": 8}, "funghi-bianca": {"name": "Funghi bianca", "desc": "Witte basis, gebakken paddenstoelen, tijm, truffelolie", "price": 14.0, "min": 8}, "quattro-formaggi": {"name": "Quattro formaggi", "desc": "Gorgonzola, taleggio, mozzarella, parmezaan, walnoot", "price": 15.0, "min": 8}, "_extra": {"id": "chili", "name": "Pikante olie", "price": 1.0}}</script>
+</section>
+
+<dialog class="confirm" id="confirm" aria-labelledby="confirm-title">
+  <h2 id="confirm-title">Bijna klaar</h2>
+  <ul id="confirm-lines"></ul>
+  <p class="confirm-total">Totaal <strong id="confirm-total"></strong></p>
+  <p>Dit is een demo, er wordt niets verstuurd. Bij een echte zaak komt je bestelling hier rechtstreeks binnen bij de pizzeria, per mail of WhatsApp.</p>
+  <div class="confirm-actions">
+    <button class="btn" type="button" id="confirm-close">Terug naar de toonbank</button>
+  </div>
+</dialog>
+
+<section class="story" aria-labelledby="oven-title">
+  <div class="story-text">
+    <h2 id="oven-title">Eén oven, vier minuten, 450 graden</h2>
+    <p>Ons deeg rijst twee dagen in de koeling. Daardoor wordt de rand luchtig en krijgt hij die zwarte vlekjes waar je naar zoekt. Op de oven staat het vuur van vijf uur 's avonds tot sluit.</p>
+    <p>We bakken enkel om mee te nemen. Bestel vooraf of bel even, dan staat je doos klaar als je binnenkomt.</p>
+  </div>
+  <figure class="story-img">
+    <img src="assets/img/diavola.webp" width="880" height="880" alt="Pizza Diavola met opgekrulde salami en chilivlokken" loading="lazy">
+  </figure>
+</section>
+
+<section class="kaart-preview" aria-labelledby="cat-margherita">
+  <section class="cat" aria-labelledby="cat-margherita"><h2 id="cat-margherita">Pizza&#x27;s uit de houtoven</h2><p class="cat-note">Deeg dat 48 uur rijst. Elke pizza is ongeveer 30 cm.</p><ul class="dishes"><li class="dish">
+  <div class="dish-top"><h3>Margherita <span class="veg" title="Vegetarisch">veggie</span></h3><span class="dots" aria-hidden="true"></span><span class="price">€ 11,00</span></div>
+  <p>Tomaat, fior di latte, basilicum, olijfolie</p>
+</li><li class="dish">
+  <div class="dish-top"><h3>Diavola</h3><span class="dots" aria-hidden="true"></span><span class="price">€ 13,50</span></div>
+  <p>Tomaat, mozzarella, pikante salami, chilivlokken</p>
+</li><li class="dish">
+  <div class="dish-top"><h3>Funghi bianca <span class="veg" title="Vegetarisch">veggie</span></h3><span class="dots" aria-hidden="true"></span><span class="price">€ 14,00</span></div>
+  <p>Witte basis, gebakken paddenstoelen, tijm, truffelolie</p>
+</li><li class="dish">
+  <div class="dish-top"><h3>Quattro formaggi <span class="veg" title="Vegetarisch">veggie</span></h3><span class="dots" aria-hidden="true"></span><span class="price">€ 15,00</span></div>
+  <p>Gorgonzola, taleggio, mozzarella, parmezaan, walnoot</p>
+</li><li class="dish">
+  <div class="dish-top"><h3>Marinara <span class="veg" title="Vegetarisch">veggie</span></h3><span class="dots" aria-hidden="true"></span><span class="price">€ 9,50</span></div>
+  <p>Tomaat, knoflook, oregano, olijfolie, zonder kaas</p>
+</li><li class="dish">
+  <div class="dish-top"><h3>Prosciutto e rucola</h3><span class="dots" aria-hidden="true"></span><span class="price">€ 15,50</span></div>
+  <p>Tomaat, mozzarella, rauwe ham, rucola, parmezaan</p>
+</li><li class="dish">
+  <div class="dish-top"><h3>Tonno e cipolla</h3><span class="dots" aria-hidden="true"></span><span class="price">€ 13,50</span></div>
+  <p>Tomaat, mozzarella, tonijn, rode ui, kappertjes</p>
+</li><li class="dish">
+  <div class="dish-top"><h3>Calzone</h3><span class="dots" aria-hidden="true"></span><span class="price">€ 14,50</span></div>
+  <p>Dichtgevouwen met ricotta, ham, mozzarella en tomaat</p>
+</li></ul></section>
+  <p class="more"><a class="btn btn-ghost" href="menu.html">Volledige kaart met extra's en drank</a></p>
+</section>
+
+<section class="visit" aria-labelledby="visit-title">
+  <h2 id="visit-title">Afhalen aan de toonbank</h2>
+  <div class="visit-grid">
+    <div><h3>Adres</h3><p>Deegplein 4<br>3945 Tessenderlo-Ham</p><h3>Toegankelijk</h3><p>Gelijkvloerse ingang zonder drempel, brede deur en een aangepast toilet. Parkeren kan vlak voor de deur.</p></div>
+    <div><h3>Open</h3><table class="hours"><caption class="sr-only">Openingsuren</caption><tbody><tr><th scope="row">Maandag</th><td>gesloten</td></tr><tr><th scope="row">Dinsdag</th><td>gesloten</td></tr><tr><th scope="row">Woensdag</th><td>17:00 tot 21:30</td></tr><tr><th scope="row">Donderdag</th><td>17:00 tot 21:30</td></tr><tr><th scope="row">Vrijdag</th><td>17:00 tot 22:00</td></tr><tr><th scope="row">Zaterdag</th><td>17:00 tot 22:00</td></tr><tr><th scope="row">Zondag</th><td>17:00 tot 21:00</td></tr></tbody></table></div>
+    <div><h3>Bestellen</h3><p>Bel ons op <a href="tel:+3213123456">013 12 34 56</a> of stel je bestelling samen op de toonbank hierboven.</p><p><a href="contact.html">Alle info voor je bezoek</a></p></div>
+  </div>
+</section>
+</main><footer class="foot">
+  <div class="foot-grid">
+    <div>
+      <p class="foot-name">Pizzeria Brace</p>
+      <p>Deegplein 4<br>3945 Tessenderlo-Ham</p>
+    </div>
+    <div>
+      <p><a href="tel:+3213123456">013 12 34 56</a><br><a href="mailto:hallo@pizzeria-brace.be">hallo@pizzeria-brace.be</a></p>
+    </div>
+    <div>
+      <p><a href="menu.html">Kaart</a> · <a href="contact.html">Bezoek ons</a> · <a href="privacy.html">Privacy</a></p>
+    </div>
+  </div>
+  <p class="foot-credit">Demo-website door <a href="https://timmersdesign.be/" rel="noopener noreferrer">TimmersDesign</a>, Tessenderlo-Ham</p>
+</footer>
+<script src="assets/js/gsap.min.js" defer></script><script src="assets/js/ScrollTrigger.min.js" defer></script><script src="assets/js/scene.js" defer></script>
+</body>
+</html>

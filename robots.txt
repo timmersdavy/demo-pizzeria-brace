@@ -1,0 +1,3 @@
+# Demo: niet indexeren. Bij livegang INDEXABLE op true zetten en opnieuw bouwen.
+User-agent: *
+Disallow: /

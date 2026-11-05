@@ -1,0 +1,22 @@
+# Pizzeria Brace
+
+> Fictieve pizzeria, demo-website van TimmersDesign (Tessenderlo-Ham). Napolitaanse pizza uit de houtoven, enkel afhalen.
+
+- Adres: Deegplein 4, 3945 Tessenderlo-Ham
+- Telefoon: 013 12 34 56
+- Open: woensdag tot zondag vanaf 17:00, maandag en dinsdag gesloten
+- Toegankelijkheid: Gelijkvloerse ingang zonder drempel, brede deur en een aangepast toilet. Parkeren kan vlak voor de deur.
+
+## Pizza's
+- Margherita: € 11,00
+- Diavola: € 13,50
+- Funghi bianca: € 14,00
+- Quattro formaggi: € 15,00
+- Marinara: € 9,50
+- Prosciutto e rucola: € 15,50
+- Tonno e cipolla: € 13,50
+- Calzone: € 14,50
+
+## Pagina's
+- [Kaart](https://timmersdesign.be/demo-pizzeria-brace/menu.html)
+- [Bezoek ons](https://timmersdesign.be/demo-pizzeria-brace/contact.html)
