@@ -100,6 +100,8 @@ main:focus{outline:none}
 .bon-foot{font-size:.8rem;color:var(--ink-2);text-align:center;margin:.8rem 0 0}
 
 .center-col{display:flex;flex-direction:column;align-items:center;gap:1rem}
+.pick-hint{margin:0 0 -.4rem;font-weight:600;font-size:.95rem;background:var(--ink);color:var(--white);padding:.35rem .9rem;border-radius:999px;position:relative}
+.pick-hint::after{content:"";position:absolute;left:50%;bottom:-7px;transform:translateX(-50%);border-left:7px solid transparent;border-right:7px solid transparent;border-top:7px solid var(--ink)}
 .picker{list-style:none;margin:0;padding:0;display:flex;justify-content:center;gap:clamp(.5rem,2vw,1.5rem);max-width:1300px}
 .pick{display:flex;flex-direction:column;align-items:center;gap:.2rem;min-width:110px;padding:.5rem .6rem .7rem;border:2px solid transparent;border-radius:var(--r);background:rgba(255,253,248,.7);cursor:pointer;font:600 .92rem/1.2 var(--sans);color:var(--ink);transition:background .15s,border-color .15s,transform .15s}
 .pick img{width:84px;height:84px;filter:drop-shadow(0 6px 6px rgba(60,35,10,.3));transition:transform .4s ease}

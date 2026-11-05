@@ -180,6 +180,10 @@
     G.from([".timer", ".chili"], { x: -50, opacity: 0, duration: 0.7, delay: 0.5, stagger: 0.1, ease: "power3.out" });
   }
   G.from(".pick", { y: 20, opacity: 0, duration: 0.5, delay: 0.7, stagger: 0.07 });
+  // Eén keer laten oplichten zodat bezoekers zien dat ze moeten kiezen
+  G.fromTo(".pick", { boxShadow: "0 0 0 0 rgba(169,46,26,0)" },
+    { boxShadow: "0 0 0 6px rgba(169,46,26,.35)", duration: 0.45, delay: 1.5, stagger: 0.12, yoyo: true, repeat: 1, ease: "sine.inOut" });
+  G.from(".pick-hint", { y: -6, opacity: 0, duration: 0.4, delay: 1.3 });
 
   if (window.ScrollTrigger && desktop) {
     G.registerPlugin(window.ScrollTrigger);
