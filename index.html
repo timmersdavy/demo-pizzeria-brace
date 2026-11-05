@@ -28,7 +28,7 @@
 <link rel="preload" href="assets/fonts/fraunces-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="assets/img/margherita.webp"><link rel="preload" as="image" href="assets/img/toonbank-1920.webp" media="(min-width: 900px)">
 <link rel="stylesheet" href="assets/css/site.css">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Pizzeria Brace", "url": "https://timmersdesign.be/demo-pizzeria-brace/", "telephone": "+32476548643", "email": "hallo@pizzeria-brace.be", "servesCuisine": "Italiaans, pizza", "priceRange": "€€", "image": "https://timmersdesign.be/demo-pizzeria-brace/og.jpg", "menu": "https://timmersdesign.be/demo-pizzeria-brace/menu.html", "address": {"@type": "PostalAddress", "streetAddress": "Deegplein 4", "postalCode": "3945", "addressLocality": "Tessenderlo-Ham", "addressCountry": "BE"}, "openingHours": ["We-Th 17:00-21:30", "Fr-Sa 17:00-22:00", "Su 17:00-21:00"], "acceptsReservations": false}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Pizzeria Brace", "url": "https://timmersdesign.be/demo-pizzeria-brace/", "email": "hallo@pizzeria-brace.be", "servesCuisine": "Italiaans, pizza", "priceRange": "€€", "image": "https://timmersdesign.be/demo-pizzeria-brace/og.jpg", "menu": "https://timmersdesign.be/demo-pizzeria-brace/menu.html", "address": {"@type": "PostalAddress", "streetAddress": "Deegplein 4", "postalCode": "3945", "addressLocality": "Tessenderlo-Ham", "addressCountry": "BE"}, "openingHours": ["We-Th 17:00-21:30", "Fr-Sa 17:00-22:00", "Su 17:00-21:00"], "acceptsReservations": false}</script>
 </head>
 <body class="p-index">
 <a class="skip" href="#inhoud">Naar de inhoud</a>
@@ -36,7 +36,7 @@
 <header class="top">
   <a class="brand" href="index.html" aria-label="Pizzeria Brace, naar de toonbank"><span class="brand-mark" aria-hidden="true"></span>Brace</a>
   <nav aria-label="Hoofdmenu"><ul><li><a href="index.html" aria-current="page">Toonbank</a></li><li><a href="menu.html">Kaart</a></li><li><a href="contact.html">Bezoek ons</a></li></ul></nav>
-  <a class="btn btn-call" href="tel:+32476548643">Bel 0476/54.86.43</a>
+  <a class="btn btn-call" href="index.html#bon">Bestel online</a>
 </header>
 <main id="inhoud" tabindex="-1"><section class="scene" aria-labelledby="scene-title">
   <div class="scene-bg" aria-hidden="true"></div>
@@ -87,7 +87,7 @@
 </button></li></ul>
     </div>
 
-    <aside class="receipt" aria-labelledby="bon-title">
+    <aside class="receipt" id="bon" aria-labelledby="bon-title">
       <div class="paper">
         <p class="bon-head" id="bon-title">Brace · bestelbon</p>
         <p class="bon-meta">Afhalen · Deegplein 4</p>
@@ -120,7 +120,7 @@
   <div class="story-text">
     <h2 id="oven-title">Eén oven, vier minuten, 450 graden</h2>
     <p>Ons deeg rijst twee dagen in de koeling. Daardoor wordt de rand luchtig en krijgt hij die zwarte vlekjes waar je naar zoekt. Op de oven staat het vuur van vijf uur 's avonds tot sluit.</p>
-    <p>We bakken enkel om mee te nemen. Bestel vooraf of bel even, dan staat je doos klaar als je binnenkomt.</p>
+    <p>We bakken enkel om mee te nemen. Bestel vooraf online, dan staat je doos klaar als je binnenkomt.</p>
   </div>
   <figure class="story-img">
     <img src="assets/img/diavola.webp" width="880" height="880" alt="Pizza Diavola met opgekrulde salami en chilivlokken" loading="lazy">
@@ -161,7 +161,7 @@
   <div class="visit-grid">
     <div><h3>Adres</h3><p>Deegplein 4<br>3945 Tessenderlo-Ham</p><h3>Toegankelijk</h3><p>Gelijkvloerse ingang zonder drempel, brede deur en een aangepast toilet. Parkeren kan vlak voor de deur.</p></div>
     <div><h3>Open</h3><table class="hours"><caption class="sr-only">Openingsuren</caption><tbody><tr><th scope="row">Maandag</th><td>gesloten</td></tr><tr><th scope="row">Dinsdag</th><td>gesloten</td></tr><tr><th scope="row">Woensdag</th><td>17:00 tot 21:30</td></tr><tr><th scope="row">Donderdag</th><td>17:00 tot 21:30</td></tr><tr><th scope="row">Vrijdag</th><td>17:00 tot 22:00</td></tr><tr><th scope="row">Zaterdag</th><td>17:00 tot 22:00</td></tr><tr><th scope="row">Zondag</th><td>17:00 tot 21:00</td></tr></tbody></table></div>
-    <div><h3>Bestellen</h3><p>Bel ons op <a href="tel:+32476548643">0476/54.86.43</a> of stel je bestelling samen op de toonbank hierboven.</p><p><a href="contact.html">Alle info voor je bezoek</a></p></div>
+    <div><h3>Bestellen</h3><p>Stel je bestelling samen op de toonbank hierboven en haal ze af wanneer ze klaar is.</p><p><a href="contact.html">Alle info voor je bezoek</a></p></div>
   </div>
 </section>
 </main><footer class="foot">
@@ -171,7 +171,7 @@
       <p>Deegplein 4<br>3945 Tessenderlo-Ham</p>
     </div>
     <div>
-      <p><a href="tel:+32476548643">0476/54.86.43</a><br><a href="mailto:hallo@pizzeria-brace.be">hallo@pizzeria-brace.be</a></p>
+      <p><a href="mailto:hallo@pizzeria-brace.be">hallo@pizzeria-brace.be</a></p>
     </div>
     <div>
       <p><a href="menu.html">Kaart</a> · <a href="contact.html">Bezoek ons</a> · <a href="privacy.html">Privacy</a></p>
